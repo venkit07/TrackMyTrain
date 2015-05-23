@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\classes-b197d46c0af7712bca14ad66156cfb964e54ef3a.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-a5b5529c8af84c13312b13153b74f604074de59b.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\classes-f3298abb73249e97e697cc62cd1c51a5599ee86d.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\libs\ParseFacebookUtilsV4-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="99ddf5a6fe76c9eb2a45e249f5e053c722b93c7f">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\ParseFacebookUtilsV4-1.9.0-2fe51a6ef50d1b0091d65f6585286aea934efccf.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\libs\bolts-android-1.1.4-javadoc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f5dd6492c539679411fa30818320b737c410158f">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-javadoc-2ca67a33840cf30cc25b8acb9cfba4a9958aa860.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\libs\ParseFacebookUtilsV3-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e28994e5ee675a752eabf9f89323789a43c96d1a">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\ParseFacebookUtilsV3-1.9.0-e998104f559289767ed6f7ad8fa7405da9bbf7bf.jar" />
+    </item>
+    <item
+        jar="E:\softwares\adt-bundle-windows-x86_64-20140702\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-d3fd93425f1877ec794910120f13068e293850fb.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\libs\Parse-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5811138d4e6cb9d45030e133ef1a61b935154c3a">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\Parse-1.9.0-ff5076c76bfe0f5d6a9a11b04a9b9737b26f6512.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\libs\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-67c9b70637a2339b8415d5a5ecf05cad3f619c94.jar" />
+    </item>
+    <item
+        jar="E:\Studio-Space\ThoughtWorks\app\libs\ParseCrashReporting-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f42d74ec610e2961c8c8a56dffcd7485930b0e91">
+        <dex dex="E:\Studio-Space\ThoughtWorks\app\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.0-177d6658e83277e18d19aa7963837adc24e6de70.jar" />
+    </item>
+
+</items>
