@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092A64891B104468009E4D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64881B104468009E4D4C /* main.m */; };
+		092A648C1B104468009E4D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A648B1B104468009E4D4C /* AppDelegate.m */; };
+		092A648F1B104468009E4D4C /* TrackMyTrain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 092A648D1B104468009E4D4C /* TrackMyTrain.xcdatamodeld */; };
+		092A64971B104468009E4D4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092A64961B104468009E4D4C /* Images.xcassets */; };
+		092A649A1B104468009E4D4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092A64981B104468009E4D4C /* LaunchScreen.xib */; };
+		092A64A61B104468009E4D4C /* TrackMyTrainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64A51B104468009E4D4C /* TrackMyTrainTests.m */; };
+		092A64B01B104578009E4D4C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64AF1B104578009E4D4C /* Bolts.framework */; };
+		092A64B21B104580009E4D4C /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64B11B104580009E4D4C /* Parse.framework */; };
+		092A64B61B10458F009E4D4C /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64B31B10458F009E4D4C /* ParseCrashReporting.framework */; };
+		092A64B71B10458F009E4D4C /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64B41B10458F009E4D4C /* ParseFacebookUtils.framework */; };
+		092A64B81B10458F009E4D4C /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64B51B10458F009E4D4C /* ParseUI.framework */; };
+		092A64BA1B1045CE009E4D4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64B91B1045CE009E4D4C /* SystemConfiguration.framework */; };
+		092A64BC1B1045D6009E4D4C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64BB1B1045D6009E4D4C /* StoreKit.framework */; };
+		092A64BE1B1045DE009E4D4C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64BD1B1045DE009E4D4C /* Security.framework */; };
+		092A64C01B1045F0009E4D4C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64BF1B1045F0009E4D4C /* QuartzCore.framework */; };
+		092A64C21B1045F8009E4D4C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64C11B1045F8009E4D4C /* AudioToolbox.framework */; };
+		092A64C41B104601009E4D4C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64C31B104601009E4D4C /* CFNetwork.framework */; };
+		092A64C61B104615009E4D4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64C51B104615009E4D4C /* CoreGraphics.framework */; };
+		092A64C81B10461B009E4D4C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64C71B10461B009E4D4C /* MobileCoreServices.framework */; };
+		092A64CA1B104623009E4D4C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64C91B104623009E4D4C /* CoreLocation.framework */; };
+		092A64CC1B104639009E4D4C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64CB1B104639009E4D4C /* libsqlite3.0.dylib */; };
+		092A64CE1B104642009E4D4C /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 092A64CD1B104642009E4D4C /* libc.dylib */; };
+		092A64D21B10488F009E4D4C /* TrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64D01B10488F009E4D4C /* TrainViewController.m */; };
+		092A64D31B10488F009E4D4C /* TrainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092A64D11B10488F009E4D4C /* TrainViewController.xib */; };
+		092A64D61B104DFE009E4D4C /* HTAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64D41B104DFE009E4D4C /* HTAutocompleteTextField.m */; };
+		092A64D91B104E1F009E4D4C /* HTAutocompleteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64D81B104E1F009E4D4C /* HTAutocompleteManager.m */; };
+		092A64DC1B107C00009E4D4C /* StationsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64DB1B107C00009E4D4C /* StationsDataSource.m */; };
+		092A64E41B108375009E4D4C /* OptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64E31B108375009E4D4C /* OptionsTableViewController.m */; };
+		092A64F01B10932A009E4D4C /* Reminder.m in Sources */ = {isa = PBXBuildFile; fileRef = 092A64EF1B10932A009E4D4C /* Reminder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		092A64A01B104468009E4D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092A647B1B104467009E4D4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092A64821B104467009E4D4C;
+			remoteInfo = TrackMyTrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092A64831B104468009E4D4C /* TrackMyTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092A64871B104468009E4D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092A64881B104468009E4D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092A648A1B104468009E4D4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		092A648B1B104468009E4D4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		092A648E1B104468009E4D4C /* TrackMyTrain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackMyTrain.xcdatamodel; sourceTree = "<group>"; };
+		092A64961B104468009E4D4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		092A64991B104468009E4D4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		092A649F1B104468009E4D4C /* TrackMyTrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMyTrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		092A64A41B104468009E4D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		092A64A51B104468009E4D4C /* TrackMyTrainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMyTrainTests.m; sourceTree = "<group>"; };
+		092A64AF1B104578009E4D4C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.6.2 2/Bolts.framework"; sourceTree = "<group>"; };
+		092A64B11B104580009E4D4C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1.6.2 2/Parse.framework"; sourceTree = "<group>"; };
+		092A64B31B10458F009E4D4C /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "parse-library-1.6.2 2/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		092A64B41B10458F009E4D4C /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1.6.2 2/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		092A64B51B10458F009E4D4C /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1.6.2 2/ParseUI.framework"; sourceTree = "<group>"; };
+		092A64B91B1045CE009E4D4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		092A64BB1B1045D6009E4D4C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		092A64BD1B1045DE009E4D4C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		092A64BF1B1045F0009E4D4C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		092A64C11B1045F8009E4D4C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		092A64C31B104601009E4D4C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		092A64C51B104615009E4D4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		092A64C71B10461B009E4D4C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		092A64C91B104623009E4D4C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		092A64CB1B104639009E4D4C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		092A64CD1B104642009E4D4C /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
+		092A64CF1B10488F009E4D4C /* TrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainViewController.h; sourceTree = "<group>"; };
+		092A64D01B10488F009E4D4C /* TrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainViewController.m; sourceTree = "<group>"; };
+		092A64D11B10488F009E4D4C /* TrainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainViewController.xib; sourceTree = "<group>"; };
+		092A64D41B104DFE009E4D4C /* HTAutocompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAutocompleteTextField.m; sourceTree = "<group>"; };
+		092A64D51B104DFE009E4D4C /* HTAutocompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAutocompleteTextField.h; sourceTree = "<group>"; };
+		092A64D71B104E1E009E4D4C /* HTAutocompleteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAutocompleteManager.h; sourceTree = "<group>"; };
+		092A64D81B104E1F009E4D4C /* HTAutocompleteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAutocompleteManager.m; sourceTree = "<group>"; };
+		092A64DA1B107C00009E4D4C /* StationsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsDataSource.h; sourceTree = "<group>"; };
+		092A64DB1B107C00009E4D4C /* StationsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsDataSource.m; sourceTree = "<group>"; };
+		092A64E21B108375009E4D4C /* OptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OptionsTableViewController.h; path = ../OptionsTableViewController.h; sourceTree = "<group>"; };
+		092A64E31B108375009E4D4C /* OptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OptionsTableViewController.m; path = ../OptionsTableViewController.m; sourceTree = "<group>"; };
+		092A64EE1B10932A009E4D4C /* Reminder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reminder.h; sourceTree = "<group>"; };
+		092A64EF1B10932A009E4D4C /* Reminder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reminder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092A64801B104467009E4D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092A64CE1B104642009E4D4C /* libc.dylib in Frameworks */,
+				092A64CC1B104639009E4D4C /* libsqlite3.0.dylib in Frameworks */,
+				092A64CA1B104623009E4D4C /* CoreLocation.framework in Frameworks */,
+				092A64C81B10461B009E4D4C /* MobileCoreServices.framework in Frameworks */,
+				092A64C61B104615009E4D4C /* CoreGraphics.framework in Frameworks */,
+				092A64C41B104601009E4D4C /* CFNetwork.framework in Frameworks */,
+				092A64C21B1045F8009E4D4C /* AudioToolbox.framework in Frameworks */,
+				092A64C01B1045F0009E4D4C /* QuartzCore.framework in Frameworks */,
+				092A64BE1B1045DE009E4D4C /* Security.framework in Frameworks */,
+				092A64BC1B1045D6009E4D4C /* StoreKit.framework in Frameworks */,
+				092A64BA1B1045CE009E4D4C /* SystemConfiguration.framework in Frameworks */,
+				092A64B61B10458F009E4D4C /* ParseCrashReporting.framework in Frameworks */,
+				092A64B71B10458F009E4D4C /* ParseFacebookUtils.framework in Frameworks */,
+				092A64B81B10458F009E4D4C /* ParseUI.framework in Frameworks */,
+				092A64B21B104580009E4D4C /* Parse.framework in Frameworks */,
+				092A64B01B104578009E4D4C /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092A649C1B104468009E4D4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092A647A1B104467009E4D4C = {
+			isa = PBXGroup;
+			children = (
+				092A64CD1B104642009E4D4C /* libc.dylib */,
+				092A64CB1B104639009E4D4C /* libsqlite3.0.dylib */,
+				092A64C91B104623009E4D4C /* CoreLocation.framework */,
+				092A64C71B10461B009E4D4C /* MobileCoreServices.framework */,
+				092A64C51B104615009E4D4C /* CoreGraphics.framework */,
+				092A64C31B104601009E4D4C /* CFNetwork.framework */,
+				092A64C11B1045F8009E4D4C /* AudioToolbox.framework */,
+				092A64BF1B1045F0009E4D4C /* QuartzCore.framework */,
+				092A64BD1B1045DE009E4D4C /* Security.framework */,
+				092A64BB1B1045D6009E4D4C /* StoreKit.framework */,
+				092A64B91B1045CE009E4D4C /* SystemConfiguration.framework */,
+				092A64B31B10458F009E4D4C /* ParseCrashReporting.framework */,
+				092A64B41B10458F009E4D4C /* ParseFacebookUtils.framework */,
+				092A64B51B10458F009E4D4C /* ParseUI.framework */,
+				092A64B11B104580009E4D4C /* Parse.framework */,
+				092A64AF1B104578009E4D4C /* Bolts.framework */,
+				092A64851B104468009E4D4C /* TrackMyTrain */,
+				092A64A21B104468009E4D4C /* TrackMyTrainTests */,
+				092A64841B104468009E4D4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092A64841B104468009E4D4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092A64831B104468009E4D4C /* TrackMyTrain.app */,
+				092A649F1B104468009E4D4C /* TrackMyTrainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092A64851B104468009E4D4C /* TrackMyTrain */ = {
+			isa = PBXGroup;
+			children = (
+				092A648A1B104468009E4D4C /* AppDelegate.h */,
+				092A648B1B104468009E4D4C /* AppDelegate.m */,
+				092A64E21B108375009E4D4C /* OptionsTableViewController.h */,
+				092A64E31B108375009E4D4C /* OptionsTableViewController.m */,
+				092A64DA1B107C00009E4D4C /* StationsDataSource.h */,
+				092A64DB1B107C00009E4D4C /* StationsDataSource.m */,
+				092A64CF1B10488F009E4D4C /* TrainViewController.h */,
+				092A64D01B10488F009E4D4C /* TrainViewController.m */,
+				092A64EE1B10932A009E4D4C /* Reminder.h */,
+				092A64EF1B10932A009E4D4C /* Reminder.m */,
+				092A64D11B10488F009E4D4C /* TrainViewController.xib */,
+				092A64D41B104DFE009E4D4C /* HTAutocompleteTextField.m */,
+				092A64D51B104DFE009E4D4C /* HTAutocompleteTextField.h */,
+				092A64D71B104E1E009E4D4C /* HTAutocompleteManager.h */,
+				092A64D81B104E1F009E4D4C /* HTAutocompleteManager.m */,
+				092A64961B104468009E4D4C /* Images.xcassets */,
+				092A64981B104468009E4D4C /* LaunchScreen.xib */,
+				092A648D1B104468009E4D4C /* TrackMyTrain.xcdatamodeld */,
+				092A64861B104468009E4D4C /* Supporting Files */,
+			);
+			path = TrackMyTrain;
+			sourceTree = "<group>";
+		};
+		092A64861B104468009E4D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				092A64871B104468009E4D4C /* Info.plist */,
+				092A64881B104468009E4D4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		092A64A21B104468009E4D4C /* TrackMyTrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				092A64A51B104468009E4D4C /* TrackMyTrainTests.m */,
+				092A64A31B104468009E4D4C /* Supporting Files */,
+			);
+			path = TrackMyTrainTests;
+			sourceTree = "<group>";
+		};
+		092A64A31B104468009E4D4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				092A64A41B104468009E4D4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092A64821B104467009E4D4C /* TrackMyTrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092A64A91B104469009E4D4C /* Build configuration list for PBXNativeTarget "TrackMyTrain" */;
+			buildPhases = (
+				092A647F1B104467009E4D4C /* Sources */,
+				092A64801B104467009E4D4C /* Frameworks */,
+				092A64811B104467009E4D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMyTrain;
+			productName = TrackMyTrain;
+			productReference = 092A64831B104468009E4D4C /* TrackMyTrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		092A649E1B104468009E4D4C /* TrackMyTrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092A64AC1B104469009E4D4C /* Build configuration list for PBXNativeTarget "TrackMyTrainTests" */;
+			buildPhases = (
+				092A649B1B104468009E4D4C /* Sources */,
+				092A649C1B104468009E4D4C /* Frameworks */,
+				092A649D1B104468009E4D4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092A64A11B104468009E4D4C /* PBXTargetDependency */,
+			);
+			name = TrackMyTrainTests;
+			productName = TrackMyTrainTests;
+			productReference = 092A649F1B104468009E4D4C /* TrackMyTrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092A647B1B104467009E4D4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = PR;
+				TargetAttributes = {
+					092A64821B104467009E4D4C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					092A649E1B104468009E4D4C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 092A64821B104467009E4D4C;
+					};
+				};
+			};
+			buildConfigurationList = 092A647E1B104467009E4D4C /* Build configuration list for PBXProject "TrackMyTrain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 092A647A1B104467009E4D4C;
+			productRefGroup = 092A64841B104468009E4D4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092A64821B104467009E4D4C /* TrackMyTrain */,
+				092A649E1B104468009E4D4C /* TrackMyTrainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092A64811B104467009E4D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092A649A1B104468009E4D4C /* LaunchScreen.xib in Resources */,
+				092A64971B104468009E4D4C /* Images.xcassets in Resources */,
+				092A64D31B10488F009E4D4C /* TrainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092A649D1B104468009E4D4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092A647F1B104467009E4D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092A648C1B104468009E4D4C /* AppDelegate.m in Sources */,
+				092A64D61B104DFE009E4D4C /* HTAutocompleteTextField.m in Sources */,
+				092A64E41B108375009E4D4C /* OptionsTableViewController.m in Sources */,
+				092A64D91B104E1F009E4D4C /* HTAutocompleteManager.m in Sources */,
+				092A64F01B10932A009E4D4C /* Reminder.m in Sources */,
+				092A648F1B104468009E4D4C /* TrackMyTrain.xcdatamodeld in Sources */,
+				092A64DC1B107C00009E4D4C /* StationsDataSource.m in Sources */,
+				092A64D21B10488F009E4D4C /* TrainViewController.m in Sources */,
+				092A64891B104468009E4D4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092A649B1B104468009E4D4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092A64A61B104468009E4D4C /* TrackMyTrainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092A64A11B104468009E4D4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 092A64821B104467009E4D4C /* TrackMyTrain */;
+			targetProxy = 092A64A01B104468009E4D4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		092A64981B104468009E4D4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092A64991B104468009E4D4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092A64A71B104468009E4D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		092A64A81B104468009E4D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		092A64AA1B104469009E4D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.6.2",
+					2,
+				);
+				INFOPLIST_FILE = TrackMyTrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		092A64AB1B104469009E4D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.6.2",
+					2,
+				);
+				INFOPLIST_FILE = TrackMyTrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		092A64AD1B104469009E4D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackMyTrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyTrain.app/TrackMyTrain";
+			};
+			name = Debug;
+		};
+		092A64AE1B104469009E4D4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TrackMyTrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackMyTrain.app/TrackMyTrain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092A647E1B104467009E4D4C /* Build configuration list for PBXProject "TrackMyTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092A64A71B104468009E4D4C /* Debug */,
+				092A64A81B104468009E4D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092A64A91B104469009E4D4C /* Build configuration list for PBXNativeTarget "TrackMyTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092A64AA1B104469009E4D4C /* Debug */,
+				092A64AB1B104469009E4D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		092A64AC1B104469009E4D4C /* Build configuration list for PBXNativeTarget "TrackMyTrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092A64AD1B104469009E4D4C /* Debug */,
+				092A64AE1B104469009E4D4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		092A648D1B104468009E4D4C /* TrackMyTrain.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				092A648E1B104468009E4D4C /* TrackMyTrain.xcdatamodel */,
+			);
+			currentVersion = 092A648E1B104468009E4D4C /* TrackMyTrain.xcdatamodel */;
+			path = TrackMyTrain.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 092A647B1B104467009E4D4C /* Project object */;
+}
