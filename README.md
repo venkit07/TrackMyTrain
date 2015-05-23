@@ -3,11 +3,11 @@ DexterLabs - ThoughtWorks Hackathon
 
 Screenshots of the app 
 
-![](https://github.com/venkit07/TrackMyTrain/tree/master/SCREENSHOTS/home.png)
-![](https://github.com/venkit07/TrackMyTrain/tree/master/SCREENSHOTS/add.png)
-![](https://github.com/venkit07/TrackMyTrain/tree/master/SCREENSHOTS/alert.png)
-![](https://github.com/venkit07/TrackMyTrain/tree/master/SCREENSHOTS/wake.png)
-![](https://github.com/venkit07/TrackMyTrain/tree/master/SCREENSHOTS/drawer.png)
-![](https://github.com/venkit07/TrackMyTrain/tree/master/SCREENSHOTS/history.png)
+![](https://github.com/venkit07/TrackMyTrain/tree/master/Screenshots/home.png)
+![](https://github.com/venkit07/TrackMyTrain/tree/master/Screenshots/add.png)
+![](https://github.com/venkit07/TrackMyTrain/tree/master/Screenshots/alert.png)
+![](https://github.com/venkit07/TrackMyTrain/tree/master/Screenshots/wake.png)
+![](https://github.com/venkit07/TrackMyTrain/tree/master/Screenshots/drawer.png)
+![](https://github.com/venkit07/TrackMyTrain/tree/master/Screenshots/history.png)
 
 
